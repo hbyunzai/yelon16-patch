@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.lib.prod.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "paths": {
+      "@yelon16-patch/*": ["../../dist/@yelon16-patch/*"],
+    }
+  }
+}

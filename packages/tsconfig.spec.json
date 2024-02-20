@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "rootDir": "./",
+    "outDir": "../out-tsc/spec",
+    "types": ["jasmine", "node"],
+    "paths": {
+      "@yelon16-patch/*": ["./*"]
+    },
+    "esModuleInterop": true,
+    "noImplicitThis": false
+  },
+  "files": ["test.ts"],
+  "include": ["**/*.spec.ts", "**/*.d.ts"]
+}
